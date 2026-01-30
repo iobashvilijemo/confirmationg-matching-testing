@@ -1,0 +1,10 @@
+{
+  "currency": "USD",
+  "settlement_amount": 19777430.56,
+  "nominal_amount_or_quantity": 20000000.0,
+  "direction": "unknown",
+  "label": "Net Consideration",
+  "isin": "US9127123213",
+  "value_or_settlement_date": "2025-10-21",
+  "standard_settlement_instruction": "PSET FFFF33"
+}

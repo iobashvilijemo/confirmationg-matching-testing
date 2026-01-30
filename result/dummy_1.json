@@ -1,0 +1,9 @@
+{
+  "currency": null,
+  "settlement_amount": null,
+  "nominal_amount_or_quantity": null,
+  "direction": "unknown",
+  "isin": null,
+  "value_or_settlement_date": null,
+  "standard_settlement_instruction": null
+}

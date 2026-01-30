@@ -1,0 +1,10 @@
+{
+  "currency": null,
+  "settlement_amount": 11948200.0,
+  "nominal_amount_or_quantity": 12000000.0,
+  "direction": "unknown",
+  "label": "Net Consideration",
+  "isin": "US6937512345",
+  "value_or_settlement_date": "2025-11-22",
+  "standard_settlement_instruction": "Delivery Versus Payment By UB Agent: Stream A/c 19200 Our Beneficiary Swift Code BKBKBK32 Our Agent BIC Code BKBKBKBK"
+}

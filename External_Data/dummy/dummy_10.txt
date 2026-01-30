@@ -1,0 +1,85 @@
+SaqQalaq Banki
+SaqQalaq Banki Jgupis, Azerbaijanis moedani
+Khashuri N12
+Registered Number:
+Authorised by the Prudential Regulation Authority and regulated by the Financial
+Company:
+National Bank of Zamunda
+Date:
+April 29, 2022
+To:
+SETTLEMENT
+Trade Date:
+02-Dec-2023
+Settlement Date:
+03-Dec-2023
+17:08:15
+We are pleased to report your PURCHASE of the following security.
+Account Name:
+National Bank of Zamunda
+Account Mnem:
+LAPD3287
+Security Desc:
+TREASURY BILL ZERO COUPON DTD 02/14/12 MTY 02/14/13
+Isin:
+AV773458OF23
+Cusip:
+535450OF9
+Common Code:
+998489216
+Face Amount:
+316,211,726.00
+Gross Price:
+96.97430725942
+Factor
+1
+Principal:
+381,682,071.00
+Accrued Interest:
+841,586.00
+Interest Days:
+725
+Net Amount (in USD)
+406,624,981.00
+Reference Number:
+3611235328-1
+Exchange MIC Code:
+DARB
+Settlement Instructions:
+AGAINST PAYMENT
+Your Settlement:
+048000092 SaqQalaq Banki
+CUST
+A/C 098 267
+CSC52033
+Our Settlement:
+ABA # 033000020 BK OF khx/Gorda, Khashuri GLOBAL MARKETS INC AS SETTLEMENT AGENT FOR KGML
+Comments:
+Errors and omissions excepted. Execution time available upon request if missing. Further details are available on request.
+Regional Office Contact Numbers
+North America
++1-816-520-4035
+London (Equity)
++33-21-6886-3340
+Hong Kong
++452-1501-2885
+India
++83-6228-2354
+Singapore
++65-6543-2848
+Malaysia
++307-23784066
+Taiwan
++377-2255-2357
+Australia
++72-7-2925-2033
+Thailand
++22-1-958-3830
+London (Fixed Income ? Bond)
++59-27-7304-0877
+Korea
++456-2010-4336
+Tokyo
++75-8-6467-5368
+Indonesia
++65-01-3351-7685

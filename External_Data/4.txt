@@ -1,0 +1,86 @@
+CONFIRMATION
+ 
+From:
+        CREDIT AGRICOLE CORPORATE AND INVESTMENT BANK
+ 
+        12, Place des Etats-Unis - C 75552 , 92557 , Montr5e Cex , FRA
+To:
+        NATIONAL BANK 
+        Bonds Settlement Department
+Message reference:
+        CYC001231231B
+        
+Generated On:
+        24/10/25 11:02:18.067 o'clock AM GMT
+ 
+We hereby confirm your securities SALE on the SECONDARY market.
+---------------------------------------------------------------------------------------
+Main information
+Our reference:
+        48131230
+Buyer:
+        CORPORATE AND INVESTMENT BANK  
+Seller:
+        NATIONAL BANK 02131310265
+Trade date:
+        24/10/2025
+Settlement date:
+        28/10/2025
+Accrued interest amount:
+        344,305.56
+Clean price:
+        101.606
+Accrued interest rate:
+        3.4430556
+Dirty price:
+        105.0490556
+Cash countervalue:
+        11,604,905.56 USD
+Nominal:
+        11,000,000.00 USD
+Trade Negociated Price (Clean price):   101.606
+Execution time:
+        24/10/25 10:28:09.000 o'clock AM
+Accrued interest is calculated according to international rules
+---------------------------------------------------------------------------------------
+Financial instrument attributes
+ISIN:
+        FR0014123133
+Currency:
+USD
+Issuer:
+        33 CONSIGNATIONS
+Issue date:
+        JANUARY 31, 2025
+Rate :
+4.625
+Maturity date:
+        JANUARY 31, 2028
+Spread:
+---------------------------------------------------------------------------------------
+CORPORATE AND INVESTMENT BANK instructions
+ACCOUNT: 1111
+WITH: CEAM - CLYZX
+BENEFICIARY: XYZ CIB - BFFFFRPXXX
+---------------------------------------------------------------------------------------
+NATIONAL BANK instructions
+SECURITY SETTLEMENT SYSTEM AGAINST PAYMENT: CEDEL - CEDELULLXXX
+ACCOUNT: 12323
+WITH CEAM - CLYZX
+BENEFICIARY: NATIONAL BANK - YZXE11XXX
+---------------------------------------------------------------------------------------
+Broker:
+BLOOMBERG LP
+Informations:
+ 
+You will be deemed to have accepted the above offer on the terms set out unless we hear from you to the contrary within 48 hours from
+confirmation date.
+This document has been produced automatically and requires no official signature.
+ 
+Best Regards.
+ 
+Contact Bonds Back-Office: CLIENT SETTLEMENT TEAM
+Email: Bondt@ca-cib.com
+Phone:
+Fax: 33(0)111231231
+ 

@@ -1,0 +1,83 @@
+ 
+TRADE CONFIRMATION
+(You BOUGHT)
+20 Oct 2025
+ 
+NATIONAL BANK
+212213332131
+ 
+AS PRINCIPAL, CANADIAN BANKE (LONDON BRANCH) TODAY CONFIRM THE
+FOLLOWING TRANSACTION FOR YOUR ACCOUNT: 
+Our SSIs:
+PSET FFFF33
+FICC Clearing: FICC Account 4444 | BK OF NYC/sdffc | ABA: 1234567
+Non-FICC Clearing: BK OF NYC/FF | ABA: 1234567
+ 
+ 
+Best Regards,
+Canadian Bank (London Branch)
+ 
+ 
+ 
+Disclosure Information
+For the trade(s) referred to in this confirmation notice Canadian Imperial Bank of Commerce, London Branch is your legal counterparty. CI is a bank
+incorporated pursuant to the Bank Act (Canada) with its head office in Toronto, Canada. Registered UK Branch: 150 Cheapside, London England 6ET. 
+ 
+Canadian Bank , London Branch is supervised and regulated by the Office of the Superintendent of Financial Institutions Canada.
+Authorised by the Prudential Regulation Authority. Subject to regulation by the Financial Conduct Authority and limited regulation by the Prudential Regulation
+Authority. Details about the extent of our regulation by the Prudential Regulation Authority are available from us on request. 
+ 
+We have not provided you with investment advice or recommendations with respect to the trade(s) confirmed herein.
+We believe any information provided to you to be accurate and reliable, but we do not assume any liability for errors or omissions. 
+ 
+We will act as principal with you in converting any currency at rates established or determined by us or parties related to us. We and parties related to us may earn
+revenue in addition to the commission applicable to such a trade, based on the difference between the applicable bid and ask rates for the currency and the rate at
+which the rate is offset either internally, with a related third party or in the market. 
+ 
+All trades are executed under the rules and regulations of the relevant exchange or multi-lateral trading facility. Time of trade execution is available on request. 
+ 
+Certain domestic or foreign governments may charge financial transaction taxes on securities transactions in your account. We will collect and remit these taxes to
+such governments on your behalf. Please contact your CIBC representative if you require details of financial transaction taxes charged on securities transactions in
+your account. 
+ 
+ 
+ 
+Canadian Bank 
+(London Branch)
+150 Cheapside
+London England
+TRADE ID:  2492111
+TRADE DATE:
+October 20, 2025
+SETT DATE:
+October 21, 2025
+SEC. NAME:
+B 02/15/26
+CUSIP:
+912797123
+ISIN:
+US9127123213
+COUPON:
+0.0%
+MATURITY DATE:
+February 17, 2026
+QUANTITY:
+20,000,000.00
+PRICE:
+98.752153
+ACCR DAYS:
+0
+PRIN.AMT:
+USD
+19,750,430.56
+YIELD:
+3.88
+ACCRUED INT:
+USD
+.00
+NET AMT:
+USD
+19,777,430.56
+SETT AMT:
+USD
+19,777,430.56

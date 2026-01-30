@@ -1,0 +1,86 @@
+NTF
+FAX 8265641;567956:GLS9+
+
+                         Trade Date               : 30-Sep-25
+                         Trade Time               : 12:43
+                         Value Date               : 01-Oct-25
+                         Venue                    : OTC
+                         Our Reference            : 530560 /1
+                         Front Office Reference   : 75433
+
+Destination Fax Number  : 01144207
+
+
+Attention: NATIONAL BANK
+
+We confirm we have sold to you as principal for account
+NATIONAL BANK OF GEORGIA
+
+Security Description          : WI TREASURY SEC. 3.5% 15/09/2029
+Security Code                 : ISIN         US912812313
+Security Issuer               : US GOVERNMENT
+Maturity Date                 : 15-Sep-2028
+
+Quantity                      : USD   28,000,000.00
+Trade Currency                : USD
+Trade Price                   : 99.3223125000 (Clean % Price)
+Accrual Factor                : 0.1491712860
+Dirty Price                   : 99.461234837857
+
+Gross Consideration           : USD   29,809,687.50
+Accrued Interest              : USD       41,767.96
+No. of Days Accrued           : 16
+Interest Rate                 : 3.375000
+
+Net Consideration             : USD   29,851,455.46
+
+
+Settlement Terms              : Delivery V Payment
+
+Our Settlement Instructions
+        BANK OF NEW YORK, NEW YORK (BDS)
+        FXF
+        
+        
+        
+        
+        
+
+Your Settlement Instructions
+        CITBNK N.A.
+        0854CS104
+        
+        
+        
+        
+        
+
+
+
+
+
+Bank Scia Lond
+201 BISTE
+6TH FLOOR
+E 3NS
+
+
+Telephone   :                        Fax     : 
+
+LEI The Bank of Nova Scotia London branch: L3KFGXZ61BMYR72 , Type of the Order:
+Not applicable , Commissions and Expenses: Zero, OTC unless notified by venue
+The Bank Scia is incorporated in Canada with limited liability and is
+authorised and regulated by the Office of the Superintendent of Financial
+Institutions Canada (OSFI).
+The Bank of Nova Scotia has a branch in, amongst other countries, the United Kingdom
+(The Bank of Nova Scotia, London branch) which is authorised by
+the Prudential Regulation Authority and subject to regulation by the Financial
+Conduct Authority and limited regulation by the Prudential Regulation Authority.
+NOTICE OF CONFIDENTIALITY - Scotiabank, together with `Global Banking and Markets`,
+is a marketing name for the global corporate and investment banking and capital
+markets businesses of
+The Bank Scia and certain of its affiliates in the countries where they
+operate.  This communication is confidential,
+and if you are not the intended recipient please delete this communication and notify
+the sender immediately.
+MMMM

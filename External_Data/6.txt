@@ -1,0 +1,82 @@
+Company:
+NATIONAL BANK OF GEORGIA
+Date:
+November 17, 2025
+To:
+SETTLEMENT
+Trade Date:
+17-Nov-2025
+Settlement Date:
+17-Nov-2025
+11:41:10
+We are pleased to report your PURCHASE of the following security.
+Account Name:
+NATIONAL BANK 
+Account Mnem:
+LD1111119
+Security Desc:
+TREASURY BILL ZERO COUPON DTD 12/26/2024 MTY 12/26/2025
+Isin:
+US9127111117
+Cusip:
+91273232327
+Common Code:
+29703232323
+Face Amount:
+33,000,000.00
+Gross Price:
+99.521312313183333
+Factor
+1
+Principal:
+33,862,165.87
+Accrued Interest:
+0.00
+Interest Days:
+0
+Net Amount (in USD) 
+33,862,165.87
+Reference Number:
+11111172-1
+Errors and omissions excepted. Execution time available upon request if missing. Further details are available on request.
+Settlement Instructions:
+AGAINST PAYMENT
+Your Settlement:
+0213123131089 CINK NYC
+CUST
+A/C 11111
+XXX12323
+Our Settlement:
+ABA # 03123123118 BK OF NYC/1231313, CIOUP GLOBAL MARKETS INC AS SETTLEMENT AGENT FOR 1231
+Comments:
+1 / 1
+North America
++1-716-13123
+London (Equity)
++44-20-721312316
+Hong Kong
++852-2501-321312
+India
++65-6328-2123123
+Singapore321
++65-665721331248
+Thailand
++66-2-7831232
+London (Fixed Income ? Bond)
++44-20123131-0897
+Korea
++822-23213155
+Tokyo
++81-3-6231312510
+Indonesia
++62-2121313365
+Malaysia
++603-238213123
+Taiwan
++852-250312313
+Australia
++61-2-822213213
+Regional Office Contact Numbers
+London E14 5LB, U.K.
+Registered Number:
+Authorised by the Prudential Regulation Authority and regulated by the Financial 

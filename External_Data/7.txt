@@ -1,0 +1,74 @@
+TRADE CONFIRMATION
+Attention of:
+Confirms
+Counterparty:
+NATIONAL BANKE-mail:
+Back@gov.com
+Account Name:
+MAIN ACCOUNT
+Our Reference:
+9G42123213
+Internal Account No:
+042M121313
+We confirm your SALE to us.
+Product Description:
+PO3 07/17/2029
+Quantity:
+20,000,000
+Price:
+98.5152 %
+ISIN:
+PTPBTB123131
+Trade Date:
+15 Oct 2025
+Settlement Date:
+17 Oct 2025
+Principal:
+EUR 21,704,142.31
+Net Consideration:
+EUR 21,704,142.31
+Settlement Currency:
+EUR
+Transaction Time:
+07:28:19.765000 GMT
+Delivery Instructions:
+We will receive, versus payment
+To:
+AGENT BIC MEBE
+ACCOUNT 999432
+BENEFICIARY BIC MSL32f
+BIC: MEBE
+From:
+CLEM BANKING A/C 11994
+BIC: CELL
+XYZ plc
+25 Ct Square
+Canary Wharf
+London A
+Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority
+Trade date is shown as the date as at the local time of execution, typically the local market. Time of trade, where shown, is expressed in GMT. Due to the International Date Line, in some
+instances time may therefore relate to GMT of a day other than the stated trade date. You may wish to convert GMT time to local time. Unless otherwise stated time of execution is available
+on written request.
+This transaction is subject to Moy's Customer Documents which have been provided to you. Our charges may comprise commission as notified to you from time to time and/or
+mark-up or mark-down.
+We may share charges with our Associated Firms or other third parties or receive remuneration from them in respect of transactions carried out with or for you or we may be acting on both
+sides of the transaction. Details of any such arrangement will be made available to you upon written request.
+We or our Associates may pass on part of our or their charges to a third party as a reward for introducing your business to us or them. Details of any such arrangement will be made available to
+you upon written request.
+Unless expressly stated otherwise on this confirmation or within other correspondence which supplements this confirmation, where we have acted as principal in executing a transaction in a
+security which is not a packaged product or a readily realisable security the unit price shown is the market price, within the meaning of our Customer Documents.
+You will not receive any dividend, capitalisation or other right in relation to the transaction if the stock has become ex-dividend, unless otherwise agreed.
+It is recommended that this note be retained for V.A.T. and Capital Gains Tax purposes.
+You agree to pay and reimburse Moy for all duties, taxes, levies, exchange fees and other charges that Morgan Stanley must pay in connection with or to enable it to engage in,
+transactions with or for you ("transaction charges"), and to pay to Morgan Stanley any amounts it may levy from time to time in connection with those transaction charges.
+This transaction may have been introduced to us by one of our affiliates.
+Unless we have agreed with you otherwise you will receive a further confirmation of this trade by mail.
+Contact:
+Fixed Income Client Service Group
+E-mail:
+Ficcp.Euro@xyz.com
+Telephone:
+0044 141 24
+Fax:
+0044 201 05
+Document Creation Time: 20251015-07:28:34.105 GMT

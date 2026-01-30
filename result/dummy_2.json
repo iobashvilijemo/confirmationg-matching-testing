@@ -1,0 +1,9 @@
+{
+  "currency": null,
+  "settlement_amount": null,
+  "nominal_amount_or_quantity": null,
+  "direction": "unknown",
+  "isin": "PT492682JA29",
+  "value_or_settlement_date": "2022-08-21",
+  "standard_settlement_instruction": null
+}

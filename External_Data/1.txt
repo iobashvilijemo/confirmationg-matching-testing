@@ -1,0 +1,70 @@
+UB Branch
+5 Broadgate
+London EC2QS
+Tel. +44-20
+United Kingdom
+Client Name:
+NATIONAL BANK 
+Client Account Ref: 7853
+Confirmation Ref:
+5733335/1
+Date:
+25 November 2025
+We have sold on Principal terms
+Original
+Trade Date:
+21 November 2025
+Settlement Date:
+22 November 2025
+Security Name:
+PSP Capital Inc
+Maturity Date:
+29 June 2026
+Coupon Rate:
+1.00
+ISIN:
+US6937512345
+CUSIP:
+6937512348
+Quantity:
+12,000,000
+Execution Description:
+Clean Price
+Execution Price:
+USD 98.335
+Yield:
+3.87235123
+Consideration:
+USD 11,800,200.00
+Accrued Days:
+147
+Accrued Interest:
+USD 49,000.00
+Net Consideration:
+USD 11,849,200.00
+Delivery Versus Payment
+By UB Agent:
+Stream
+A/c 19200
+Our Beneficiary Swift Code BKBKBK32
+Our Agent BIC Code BKBKBKBK
+By Your Stock Agents:
+Stream
+A/c EDC/19923
+Market dealt on : OFF-EXCHANGE TRANSACTIONS - LISTED INSTRUMENTS
+Order Type: Quote
+The securities described herein may be offered and sold during the distribution compliance period only:
+(i) in accordance with the provisions of the Securities Act of 1933 ("Securities Act") Regulation S;
+(ii) pursuant to registration of the securities under the Securities Act, or;
+(iii) pursuant to an available exemption from the registration requirements of the Securities Act.
+Your counterparty is UBS AG London Branch.
+This is conclusive and binding unless disputed by you within 24 hours of receipt.
+Time of Last Execution: 25 November 2025 12:40:14 GMT
+APAC Client Support Hotline: +852 3712 4014; Email: sh-ficc-client-team@ubs.com
+EMEA Client Support Hotline: +44 207 568 6171; Email: SH-CashSec-TCS-Ldn@ubs.com
+US Client Support Hotline: +1 615 393 7557; Email: fi-clientsupport@ubs.com
+This confirmation is issued in accordance with the rules of the I.C.M.A.
+UBS AG is registered as a branch in England and Wales with branch number BR004507 whose registered office is at 5 Broadgate London EC2M 2QS.
+UBS AG is a public company limited by shares, incorporated in Switzerland whose registered offices are at Aeschenvorstadt 1, CH-4051, Basel and
+Bahnhofstrasse 45, CH-8001, Zurich.
+UBS AG is a member of the London Stock Exchange and is authorised and regulated in the UK by the Financial Conduct Authority.
