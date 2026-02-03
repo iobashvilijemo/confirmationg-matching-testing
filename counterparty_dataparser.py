@@ -3,7 +3,7 @@ import json
 import ollama
 
 MODEL = "llama3.2:latest"  # Model name to register with ollama
-CONFIRMATION_PATH = r"C:\Users\user\Desktop\confirmationg matching testing\External_Data\1.txt"  # change as needed
+CONFIRMATION_PATH = r"/workspaces/confirmationg-matching-testing/External_Data/1.txt"  # change as needed
 
 FEW_SHOT = """
 Example:
@@ -214,11 +214,11 @@ Return ONLY the JSON object.
 
 if __name__ == "__main__":
     # Create result directory if it doesn't exist
-    result_dir = Path(r"C:\Users\user\Desktop\confirmationg matching testing\result")
+    result_dir = Path(r"/workspaces/confirmationg-matching-testing/result")
     result_dir.mkdir(exist_ok=True)
     
     for i in range(1,3):
-        CONFIRMATION_PATH = rf"C:\Users\user\Desktop\confirmationg matching testing\External_Data\dummy\dummy_{i}.txt"
+        CONFIRMATION_PATH = rf"/workspaces/confirmationg-matching-testing/External_Data/dummy/dummy_{i}.txt"
         confirmation_text = Path(CONFIRMATION_PATH).read_text(encoding="utf-8", errors="replace")
         result = extract_settlement_json(confirmation_text)
         

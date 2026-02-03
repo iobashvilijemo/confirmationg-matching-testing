@@ -1,0 +1,34 @@
+{
+	"name": "Confirmation Matching",
+	"image": "mcr.microsoft.com/devcontainers/python:3.12",
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.debugpy",
+				"ms-python.vscode-python-envs",
+				"ms-toolsai.jupyter",
+				"ms-toolsai.datawrangler",
+				"qwtel.sqlite-viewer",
+				"github.copilot",
+				"github.copilot-chat",
+				"github.vscode-pull-request-github"
+			],
+			"settings": {
+				"python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python",
+				"python.linting.enabled": true,
+				"python.linting.pylintEnabled": true,
+				"[python]": {
+					"editor.defaultFormatter": "ms-python.python",
+					"editor.formatOnSave": true
+				}
+			}
+		}
+	},
+	"postCreateCommand": "python -m venv .venv && . .venv/bin/activate && pip install --upgrade pip setuptools wheel && pip install -r requirements.txt",
+	"remoteUser": "vscode"
+}

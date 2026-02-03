@@ -43,8 +43,8 @@ def save_texts_as_txt(text_list, output_dir):
     print(f"✓ Successfully saved {len(text_list)} files to {output_dir}")
 
 if __name__ == "__main__":
-    input_folder = r"C:\Users\user\Desktop\confirmationg matching testing\test\Exports_2026-01-30_15-22-57"
-    output_folder = r"C:\Users\user\Desktop\confirmationg matching testing\External_Data\dummy"
+    input_folder = "./test/Exports_2026-01-30_15-22-57"
+    output_folder = "./External_Data/dummy"
     
     # Extract text from PDFs
     print(f"Extracting text from PDFs in {input_folder}...")

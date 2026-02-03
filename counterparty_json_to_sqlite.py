@@ -6,8 +6,8 @@ def json_to_sqlite():
     """Convert JSON files from result/ directory into SQLite database."""
     
     # Define paths
-    result_dir = Path(r"C:\Users\user\Desktop\confirmationg matching testing\DB")
-    db_path = result_dir / "confirmation_DB.db"
+    result_dir = Path("./DB")
+    db_path = result_dir / "confirmation.db"
     
     # Create or connect to SQLite database
     conn = sqlite3.connect(db_path)
