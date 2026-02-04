@@ -12,10 +12,10 @@ A financial trade confirmation parser and validator that extracts structured dat
 ## Project Structure
 
 ```
-├── counterparty_dataparser.py      # Main LLM extraction engine
-├── pdf_converter.py                 # PDF to text conversion
-├── counterparty_json_to_sqlite.py   # JSON to SQLite import
-├── wss_data_loader.py               # Data loader utility
+├── confirmation_parser.py          # Main LLM extraction engine
+├── pdf_to_text.py                  # PDF to text conversion
+├── json_to_sqlite.py               # JSON to SQLite import
+├── wss_loader.py                   # Data loader utility
 ├── External_Data/                   # Input confirmations
 ├── result/                          # Extracted JSON output
 └── DB/                              # SQLite databases
@@ -61,13 +61,13 @@ Local (manual) setup: run the official installer and start Ollama with `ollama s
 
 ```bash
 # Extract confirmations using LLM
-python counterparty_dataparser.py
+python confirmation_parser.py
 
 # Convert PDFs to text
-python pdf_converter.py
+python pdf_to_text.py
 
 # Import extracted JSON to database
-python counterparty_json_to_sqlite.py
+python json_to_sqlite.py
 ```
 
 ## Technologies
