@@ -38,11 +38,23 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Start Ollama server (in separate terminal)
-ollama serve
+# Start Ollama server (in separate terminal) or in DevContainer
+
+- Locally: `ollama serve`
+- In the DevContainer: Ollama will be installed automatically on container creation and the container forwards port `11434`. The container's `postStartCommand` will attempt to start the Ollama daemon. You can also start it manually inside the container with:
+
+```bash
+bash .devcontainer/start_ollama.sh
+```
 
 # Pull model
+
+```bash
 ollama pull llama3.2
+```
+
+Local (manual) setup: run the official installer and start Ollama with `ollama serve` or `ollama daemon`. DevContainer helper scripts exist under `.devcontainer/` and will run automatically when using the DevContainer.
+
 ```
 
 ## Usage

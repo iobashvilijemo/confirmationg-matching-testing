@@ -29,6 +29,8 @@
 			}
 		}
 	},
-	"postCreateCommand": "python -m venv .venv && . .venv/bin/activate && pip install --upgrade pip setuptools wheel && pip install -r requirements.txt",
+	"postCreateCommand": "bash .devcontainer/install_ollama.sh || true && chmod +x .devcontainer/install_ollama.sh .devcontainer/start_ollama.sh && python -m venv .venv && . .venv/bin/activate && pip install --upgrade pip setuptools wheel && pip install -r requirements.txt && ollama pull llama3.2 || true",
+	"postStartCommand": "bash .devcontainer/start_ollama.sh || true",
+	"forwardPorts": [11434],
 	"remoteUser": "vscode"
 }
