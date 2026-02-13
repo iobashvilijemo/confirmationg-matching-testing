@@ -1,46 +1,73 @@
-import pandas as pd
 import sqlite3
 from pathlib import Path
 
-def load_wss_data_to_db():
-    """Load WSS_Data.xlsx into SQLite database wss_data table."""
-    
-    # Define paths
-    wss_file = Path(r"C:\Users\user\Desktop\confirmationg matching testing\WSS_Data.xlsx")
-    db_path = Path(r"C:\Users\user\Desktop\confirmationg matching testing\DB\confirmation.db")
-    
-    # Check if files exist
+import pandas as pd
+
+DEFAULT_WSS_FILE = Path("utility") / "WSS_Data.xlsx"
+DEFAULT_DB_PATH = Path("DB") / "confirmation.db"
+TARGET_TABLE = "confirmation_data"
+VALID_COLUMNS = [
+    "creation_date",
+    "currency",
+    "settlement_amount",
+    "buy_sell",
+    "isin",
+    "settlement_date",
+    "SSI",
+]
+COLUMN_ALIASES = {
+    "create_date": "creation_date",
+}
+
+
+def _normalize_date_columns(df: pd.DataFrame) -> pd.DataFrame:
+    for col in ("creation_date", "settlement_date"):
+        if col not in df.columns:
+            continue
+        parsed = pd.to_datetime(df[col], errors="coerce")
+        df[col] = parsed.dt.strftime("%Y-%m-%d")
+        df[col] = df[col].where(parsed.notna(), None)
+    return df
+
+
+def load_wss_data_to_db(
+    wss_file: Path = DEFAULT_WSS_FILE,
+    db_path: Path = DEFAULT_DB_PATH,
+) -> int:
+    """Load WSS Excel rows into confirmation_data using matching table columns only."""
     if not wss_file.exists():
-        print(f"Error: {wss_file} not found.")
-        return
-    
+        raise FileNotFoundError(f"Excel file not found: {wss_file}")
+
     if not db_path.exists():
-        print(f"Error: {db_path} not found.")
-        return
-    
-    try:
-        # Read Excel file
-        print(f"Reading {wss_file.name}...")
-        df = pd.read_excel(wss_file)
-        
-        print(f"Columns found: {list(df.columns)}")
-        print(f"Total rows: {len(df)}")
-        
-        # Connect to database
-        conn = sqlite3.connect(db_path)
-        
-        # Use pandas to_sql to insert data
-        print("\nInserting data into wss_data table...")
-        df.to_sql("wss_data", conn, if_exists="append", index=False)
-        
-        conn.close()
-        
-        print(f"\n✓ Successfully inserted data into wss_data table in {db_path.name}")
-        print(f"✓ Total records inserted: {len(df)}")
-    
-    except Exception as e:
-        print(f"Error: {e}")
-        raise
+        raise FileNotFoundError(f"Database file not found: {db_path}")
+
+    print(f"Reading {wss_file}...")
+    df = pd.read_excel(wss_file)
+    df.columns = [str(col).strip() for col in df.columns]
+    df = df.rename(columns=COLUMN_ALIASES)
+    df = _normalize_date_columns(df)
+
+    matched_columns = [col for col in VALID_COLUMNS if col in df.columns]
+    if not matched_columns:
+        raise ValueError(
+            "No matching columns found for confirmation_data. "
+            f"Excel columns: {list(df.columns)}"
+        )
+
+    extra_columns = [col for col in df.columns if col not in VALID_COLUMNS]
+    if extra_columns:
+        print(f"Ignoring extra columns: {extra_columns}")
+
+    filtered_df = df[matched_columns]
+    print(f"Columns used: {matched_columns}")
+    print(f"Rows to insert: {len(filtered_df)}")
+
+    with sqlite3.connect(db_path) as conn:
+        filtered_df.to_sql(TARGET_TABLE, conn, if_exists="append", index=False)
+
+    print(f"Inserted {len(filtered_df)} row(s) into {TARGET_TABLE}.")
+    return len(filtered_df)
+
 
 if __name__ == "__main__":
     load_wss_data_to_db()

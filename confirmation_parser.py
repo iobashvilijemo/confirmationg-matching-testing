@@ -8,6 +8,7 @@ from llm_metadata import FIELD_LLM_METADATA, FieldLLMMetadata
 
 MODEL = "llama3.2:latest"
 DB_PATH = Path("DB") / "confirmation.db"
+EXTERNAL_DATA_DIR = Path("External_Data")
 
 
 def _has_value(value) -> bool:
@@ -57,6 +58,13 @@ def _fetch_rows(conn: sqlite3.Connection):
     return cursor.fetchall()
 
 
+def _load_transaction_text(row_id: int, base_dir: Path = EXTERNAL_DATA_DIR) -> str | None:
+    file_path = base_dir / f"{row_id}.txt"
+    if not file_path.exists():
+        return None
+    return file_path.read_text(encoding="utf-8")
+
+
 def _update_llm_column(conn: sqlite3.Connection, row_id: int, llm_column: str, value) -> None:
     cursor = conn.cursor()
     cursor.execute(
@@ -73,16 +81,19 @@ def process_new_raw_rows(db_path: Path = DB_PATH) -> int:
         rows = _fetch_rows(conn)
         for row in rows:
             row_id = row["id"]
+            transaction_text = _load_transaction_text(row_id)
+            if not _has_value(transaction_text):
+                print(f"Row {row_id}: skipped (missing or empty External_Data/{row_id}.txt)")
+                continue
 
             for metadata in FIELD_LLM_METADATA.values():
-                source_value = row[metadata.source_column]
                 llm_value = row[metadata.llm_column]
 
-                # Process only new/unused raw values (source present but LLM output missing).
-                if not _has_value(source_value) or _has_value(llm_value):
+                # Process only missing LLM outputs using the transaction text file as input.
+                if _has_value(llm_value):
                     continue
 
-                parsed_value = _extract_column_value(source_value, metadata)
+                parsed_value = _extract_column_value(transaction_text, metadata)
                 _update_llm_column(conn, row_id, metadata.llm_column, parsed_value)
                 updated_values += 1
 

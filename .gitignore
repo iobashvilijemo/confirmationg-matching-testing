@@ -44,7 +44,6 @@ MANIFEST
 htmlcov/
 
 # Databases
-*.db
 *.sqlite
 *.sqlite3
 
