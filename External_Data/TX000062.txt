@@ -1,14 +1,15 @@
 WSS_TRANSACTION
-transaction_id: TX000056
-creation_date: 2025-04-02
-currency: USD
-settlement_amount: 4045299.89
+transaction_id: TX000057
+creation_date: 2024-07-17
+currency: EUR
+settlement_amount: 41153896.70
 buy_sell: BUY
-isin: CH393214052D8
-settlement_date: 2025-04-09
+isin: IE625537434S0
+settlement_date: 2024-07-21
 ssi_begin
-Our Settlement Instructions CREDIT SUISSE, A/C 4791295813
-BENEFICIARY: SIGMA TRADING
-SWIFT: IELVDDN6UHN
-REF: JEKU1WGSTY
+PSET XXXX22
+PARTY: NOVA BANK
+SWIFT WKAXCOA1IA4
+ACC 383729066
+INSTR UV9Z3NFR74
 ssi_end

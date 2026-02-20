@@ -1,17 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000080
-creation_date: 2025-03-31
+transaction_id: TX000081
+creation_date: 2023-02-16
 currency: USD
-settlement_amount: 34264026.16
-buy_sell: SELL
-isin: GB580804994M4
-settlement_date: 2025-04-05
+settlement_amount: 18093511.83
+buy_sell: BUY
+isin: DE970217117G0
+settlement_date: 2023-02-16
 ssi_begin
-GOLDMAN SACHS
-CUST
-A/C 3750512489
-TORONTO
-/ER/4252
-CLIENT
-/ER/8374
+Our Settlement Instructions CREDIT SUISSE, A/C 7599349354
+BENEFICIARY: ORION PARTNERS
+SWIFT: PTXSWGQSGTQ
+REF: RF49963ISB
 ssi_end

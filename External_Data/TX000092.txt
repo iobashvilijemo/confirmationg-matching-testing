@@ -1,15 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000086
-creation_date: 2023-11-06
+transaction_id: TX000087
+creation_date: 2024-12-21
 currency: EUR
-settlement_amount: 20315465.83
+settlement_amount: 700022.22
 buy_sell: BUY
-isin: IT988687641A0
-settlement_date: 2023-11-13
+isin: FR598932088Y4
+settlement_date: 2024-12-28
 ssi_begin
-PSET PSET12
-PARTY: NOVA BANK
-SWIFT VGTMZJ6YASN
-ACC 8355554419
-INSTR MPTEZH39F3
+BARCLAYS
+CUST
+A/C 8954627805
+OSLO
+/ER/5698
+CLIENT
+/ER/9351
 ssi_end

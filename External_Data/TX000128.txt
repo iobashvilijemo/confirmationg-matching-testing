@@ -1,14 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000122
-creation_date: 2024-06-21
-currency: USD
-settlement_amount: 37728149.46
+transaction_id: TX000123
+creation_date: 2025-02-05
+currency: EUR
+settlement_amount: 3990629.59
 buy_sell: BUY
-isin: AU959538380Q8
-settlement_date: 2024-06-28
+isin: IT197004906Z7
+settlement_date: 2025-02-05
 ssi_begin
-Our Settlement Instructions DEUTSCHE BANK, A/C 8245220008
-BENEFICIARY: DELTA SECURITIES
-SWIFT: NLTGJH2JRW5
-REF: X7KFV9AD3E
+BNP PARIBAS
+CUST
+A/C 9435587432
+TOKYO
+/ER/5115
+CLIENT
+/ER/9549
 ssi_end

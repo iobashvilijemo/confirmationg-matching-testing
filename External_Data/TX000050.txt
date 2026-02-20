@@ -1,17 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000044
-creation_date: 2024-04-05
-currency: EUR
-settlement_amount: 21207352.84
+transaction_id: TX000045
+creation_date: 2023-11-25
+currency: USD
+settlement_amount: 30107325.08
 buy_sell: SELL
-isin: US72943726651
-settlement_date: 2024-04-12
+isin: FR801418089J4
+settlement_date: 2023-11-27
 ssi_begin
-BANK OF NEW YORK
-CUST
-A/C 7258520613
-SYDNEY
-/ER/2749
-CLIENT
-/ER/8037
+Our Settlement Instructions HSBC, A/C 5144618227
+BENEFICIARY: OMEGA FUNDS
+SWIFT: SWRXTDBB1KO
+REF: LB794ACQ6G
 ssi_end

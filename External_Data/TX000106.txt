@@ -1,16 +1,15 @@
 WSS_TRANSACTION
-transaction_id: TX000100
-creation_date: 2024-10-08
-currency: USD
-settlement_amount: 24771838.82
-buy_sell: BUY
-isin: CA881538196J7
-settlement_date: 2024-10-11
+transaction_id: TX000101
+creation_date: 2025-02-25
+currency: EUR
+settlement_amount: 20581629.20
+buy_sell: SELL
+isin: GB68609461801
+settlement_date: 2025-02-27
 ssi_begin
-CREDIT SUISSE
-ZURICH
-IBAN CA44BWAM58293138780859
-BENEFICIARY ORION PARTNERS
-SWIFT FXEHKX3MY7Z
-REF KV2MYHTD9T
+PSET IJKL66
+PARTY: ZENITH LLC
+SWIFT JXNGYPEEIIY
+ACC 1311970161
+INSTR LR105REV9S
 ssi_end

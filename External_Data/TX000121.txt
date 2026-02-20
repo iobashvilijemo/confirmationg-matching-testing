@@ -1,16 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000115
-creation_date: 2023-06-13
-currency: USD
-settlement_amount: 6078016.61
-buy_sell: BUY
-isin: SE630363610V0
-settlement_date: 2023-06-18
+transaction_id: TX000116
+creation_date: 2023-03-15
+currency: EUR
+settlement_amount: 11656503.97
+buy_sell: SELL
+isin: SE84288869616
+settlement_date: 2023-03-22
 ssi_begin
-BNP PARIBAS
-AMSTERDAM
-IBAN SE35RPWO44604869221404
-BENEFICIARY ACME HOLDINGS
-SWIFT ONWLNOCIB9N
-REF U83TSRNDER
+Our Settlement Instructions DEUTSCHE BANK, A/C 1442659417
+BENEFICIARY: ACME HOLDINGS
+SWIFT: IADYDM6WI9C
+REF: JNEMR3PDZ4
 ssi_end

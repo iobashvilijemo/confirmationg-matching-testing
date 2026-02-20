@@ -1,16 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000090
-creation_date: 2023-01-05
+transaction_id: TX000091
+creation_date: 2024-05-30
 currency: EUR
-settlement_amount: 1467398.89
-buy_sell: SELL
-isin: IT313949687Z8
-settlement_date: 2023-01-12
+settlement_amount: 12817498.82
+buy_sell: BUY
+isin: NL607536108V2
+settlement_date: 2024-06-03
 ssi_begin
-CREDIT SUISSE
-AMSTERDAM
-IBAN IT37OEDU13860564777308
-BENEFICIARY BETA CAPITAL
-SWIFT COCMOUJ0FKL
-REF CN8JA1BQJM
+DEUTSCHE BANK
+CUST
+A/C 2166654311
+STOCKHOLM
+/ER/5298
+CLIENT
+/ER/4518
 ssi_end

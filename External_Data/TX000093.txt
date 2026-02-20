@@ -1,17 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000087
-creation_date: 2024-12-21
-currency: EUR
-settlement_amount: 700022.22
+transaction_id: TX000088
+creation_date: 2023-02-03
+currency: USD
+settlement_amount: 41277370.93
 buy_sell: BUY
-isin: FR598932088Y4
-settlement_date: 2024-12-28
+isin: NO180037206W0
+settlement_date: 2023-02-09
 ssi_begin
-BARCLAYS
-CUST
-A/C 8954627805
-OSLO
-/ER/5698
-CLIENT
-/ER/9351
+Our Settlement Instructions BANK OF NEW YORK, A/C 9242610593
+BENEFICIARY: SIGMA TRADING
+SWIFT: IYSLTRAYA2Y
+REF: BEM0NZNEX4
 ssi_end

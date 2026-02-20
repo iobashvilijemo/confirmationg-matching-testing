@@ -1,16 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000063
-creation_date: 2025-07-02
-currency: EUR
-settlement_amount: 49624684.24
+transaction_id: TX000064
+creation_date: 2025-07-21
+currency: USD
+settlement_amount: 15453612.29
 buy_sell: BUY
-isin: BE491007739H0
-settlement_date: 2025-07-09
+isin: CH236205705R3
+settlement_date: 2025-07-27
 ssi_begin
-HSBC
-AMSTERDAM
-IBAN BE92ECHY64114044952685
-BENEFICIARY ZENITH LLC
-SWIFT LSOLAA6SWID
-REF XUJZKKDMZC
+DEUTSCHE BANK
+CUST
+A/C 1921887746
+TORONTO
+/ER/8850
+CLIENT
+/ER/1772
 ssi_end

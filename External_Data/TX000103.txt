@@ -1,14 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000097
-creation_date: 2025-08-31
+transaction_id: TX000098
+creation_date: 2023-09-02
 currency: EUR
-settlement_amount: 40857569.74
-buy_sell: BUY
-isin: IT952237349R5
-settlement_date: 2025-09-02
+settlement_amount: 35866428.67
+buy_sell: SELL
+isin: NL236544360K9
+settlement_date: 2023-09-08
 ssi_begin
-Stream A/c 2532386628 Our Beneficiary Swift Code QLVHKOK7BE1
-BENEFICIARY: DELTA SECURITIES
-PSET PSET12
-REFERENCE W690VK5DYA
+Our Settlement Instructions HSBC, A/C 705477024
+BENEFICIARY: ORION PARTNERS
+SWIFT: PINKTHMC0TW
+REF: 2TLX92B3TN
 ssi_end

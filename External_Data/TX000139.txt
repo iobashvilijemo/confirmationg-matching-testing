@@ -1,17 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000133
-creation_date: 2025-09-04
+transaction_id: TX000134
+creation_date: 2023-03-22
 currency: EUR
-settlement_amount: 35112967.81
+settlement_amount: 44054362.12
 buy_sell: SELL
-isin: US673245867B9
-settlement_date: 2025-09-11
+isin: JP518936413D3
+settlement_date: 2023-03-26
 ssi_begin
-GOLDMAN SACHS
+JPMORGAN
 CUST
-A/C 4974268106
-FRANKFURT
-/ER/8168
+A/C 9881345124
+PARIS
+/ER/7318
 CLIENT
-/ER/3080
+/ER/5170
 ssi_end

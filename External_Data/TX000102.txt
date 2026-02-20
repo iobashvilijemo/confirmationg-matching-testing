@@ -1,16 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000096
-creation_date: 2024-08-11
-currency: USD
-settlement_amount: 44707182.40
+transaction_id: TX000097
+creation_date: 2025-08-31
+currency: EUR
+settlement_amount: 40857569.74
 buy_sell: BUY
-isin: SE11647595669
-settlement_date: 2024-08-18
+isin: IT952237349R5
+settlement_date: 2025-09-02
 ssi_begin
-UBS
-OSLO
-IBAN SE29PFOL21691652350733
-BENEFICIARY ZENITH LLC
-SWIFT NATPEFL665F
-REF KCG20ZZ1PL
+Stream A/c 2532386628 Our Beneficiary Swift Code QLVHKOK7BE1
+BENEFICIARY: DELTA SECURITIES
+PSET PSET12
+REFERENCE W690VK5DYA
 ssi_end

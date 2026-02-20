@@ -1,14 +1,16 @@
 WSS_TRANSACTION
-transaction_id: TX000045
-creation_date: 2023-11-25
-currency: USD
-settlement_amount: 30107325.08
-buy_sell: SELL
-isin: FR801418089J4
-settlement_date: 2023-11-27
+transaction_id: TX000046
+creation_date: 2023-06-06
+currency: EUR
+settlement_amount: 49445780.49
+buy_sell: BUY
+isin: ES66479485756
+settlement_date: 2023-06-11
 ssi_begin
-Our Settlement Instructions HSBC, A/C 5144618227
-BENEFICIARY: OMEGA FUNDS
-SWIFT: SWRXTDBB1KO
-REF: LB794ACQ6G
+CREDIT SUISSE
+AMSTERDAM
+IBAN ES99TJGP72726605669494
+BENEFICIARY DELTA SECURITIES
+SWIFT SBZPZHLAGEP
+REF II7AGC4WBT
 ssi_end

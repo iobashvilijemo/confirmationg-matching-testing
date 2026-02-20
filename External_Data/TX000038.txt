@@ -1,14 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000032
-creation_date: 2023-01-04
+transaction_id: TX000033
+creation_date: 2024-02-19
 currency: EUR
-settlement_amount: 43570287.99
+settlement_amount: 6858907.67
 buy_sell: SELL
-isin: FR711843082P8
-settlement_date: 2023-01-11
+isin: IT85684943328
+settlement_date: 2024-02-26
 ssi_begin
-Our Settlement Instructions JPMORGAN, A/C 5247705772
-BENEFICIARY: ORION PARTNERS
-SWIFT: WXIDPP7UJJR
-REF: 3XUP6MSKRZ
+BNP PARIBAS
+CUST
+A/C 8668352782
+TOKYO
+/ER/8807
+CLIENT
+/ER/1972
 ssi_end

@@ -1,16 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000143
-creation_date: 2024-06-26
+transaction_id: TX000144
+creation_date: 2024-10-08
 currency: EUR
-settlement_amount: 49513065.63
+settlement_amount: 12567840.10
 buy_sell: BUY
-isin: IT806083100G6
-settlement_date: 2024-06-26
+isin: IE457459241C6
+settlement_date: 2024-10-08
 ssi_begin
-CREDIT SUISSE
-MADRID
-IBAN IT34YFKW43057078710363
-BENEFICIARY ALPHA ASSET MGMT
-SWIFT MPVHRY5SKRQ
-REF L8WJEVH9G3
+Stream A/c 3352505986 Our Beneficiary Swift Code HATGPOCI7UM
+BENEFICIARY: NOVA BANK
+PSET FFFF33
+REFERENCE TV3819SF19
 ssi_end

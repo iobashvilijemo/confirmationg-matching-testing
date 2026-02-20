@@ -1,58 +1,82 @@
-Gos International (GI)
-Plumtree Court | 25 Shoe Lane | Londo 4AU | England
-Tel: +44 (20) 72131231310
-BIC: GS1231GB2X
-GSI is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct
-Authority and the Prudential Regulation Authority
-and is a member of the London Stock Exchange.
-Trade Confirmation - Original
+Company:
+NATIONAL BANK OF GEORGIA
+Date:
+November 17, 2025
 To:
-NATIONAL BANK
-Confirmation Ref:
-PCTGS1231231v2_0:0
-F.A.O:
-Dept:
-EMAIL:
-Trade Date
-Settlement Date
-Sep 30 2025
-Oct 02 2025
-Security Name
-REPUBLIC 2.75% 02/25/2029 EUR SER 6Y PVT 144A PVT REGS
-ISIN:
-FR00123123
-Sedol:
-BMF131234
-Quantity
-Price (Decimal)
-Yield
-12,000,000
-backo@mail.com
-Accrued Interest
-EUR 198,000.00
-Number of Days
-Net Amount
-219
-EUR 12,312,960.00
-100.958
-2.45
-You have Bought on Principal terms
-We will Deliver Versus Payment at Place of Settlement: MGTBRBRBRBE
-Principal
-EUR 12,114,960.00
-Account: 0132171
-GOLDMAN SACHS
-/ER/1111
-CLIENT
-/ER/2222
-Please email fi-allo@s.com or alternatively contact your Primary Client Services Specialist if you have any queries
-regarding this confirmation.
-From:
-To:
-Execution Time and Venue Available on Request.
-This transaction is subject to London Stock Exchange rules if it was, in whole or in part, 'on exchange' as defined in such rules. This security,
-if purchased by a customer or for his account, may be pledged until payment is made, either separately or together with other customers'
-securities, either for the sum due to Goldman Sachs International or, if pledged with other securities, for a greater amount, all without further
-notice to the customer. Should you note any discrepancies in the trade details shown, please contact us immediately so that we can resolve
-any disputes. You will subsequently receive a hard copy form which will serve as the official trade confirmation and will take precedence in the
-event of any discrepancy with the terms shown here.
+SETTLEMENT
+Trade Date:
+17-Nov-2025
+Settlement Date:
+17-Nov-2025
+11:41:10
+We are pleased to report your PURCHASE of the following security.
+Account Name:
+NATIONAL BANK 
+Account Mnem:
+LD1111119
+Security Desc:
+TREASURY BILL ZERO COUPON DTD 12/26/2024 MTY 12/26/2025
+Isin:
+US9127111117
+Cusip:
+91273232327
+Common Code:
+29703232323
+Face Amount:
+33,000,000.00
+Gross Price:
+99.521312313183333
+Factor
+1
+Principal:
+33,862,165.87
+Accrued Interest:
+0.00
+Interest Days:
+0
+Net Amount (in USD) 
+33,862,165.87
+Reference Number:
+11111172-1
+Errors and omissions excepted. Execution time available upon request if missing. Further details are available on request.
+Settlement Instructions:
+AGAINST PAYMENT
+Your Settlement:
+0213123131089 CINK NYC
+CUST
+A/C 11111
+XXX12323
+Our Settlement:
+ABA # 03123123118 BK OF NYC/1231313, CIOUP GLOBAL MARKETS INC AS SETTLEMENT AGENT FOR 1231
+Comments:
+1 / 1
+North America
++1-716-13123
+London (Equity)
++44-20-721312316
+Hong Kong
++852-2501-321312
+India
++65-6328-2123123
+Singapore321
++65-665721331248
+Thailand
++66-2-7831232
+London (Fixed Income ? Bond)
++44-20123131-0897
+Korea
++822-23213155
+Tokyo
++81-3-6231312510
+Indonesia
++62-2121313365
+Malaysia
++603-238213123
+Taiwan
++852-250312313
+Australia
++61-2-822213213
+Regional Office Contact Numbers
+London E14 5LB, U.K.
+Registered Number:
+Authorised by the Prudential Regulation Authority and regulated by the Financial 

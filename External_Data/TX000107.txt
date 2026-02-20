@@ -1,15 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000101
-creation_date: 2025-02-25
+transaction_id: TX000102
+creation_date: 2025-11-29
 currency: EUR
-settlement_amount: 20581629.20
+settlement_amount: 35123827.51
 buy_sell: SELL
-isin: GB68609461801
-settlement_date: 2025-02-27
+isin: AU904082836W4
+settlement_date: 2025-11-30
 ssi_begin
-PSET IJKL66
-PARTY: ZENITH LLC
-SWIFT JXNGYPEEIIY
-ACC 1311970161
-INSTR LR105REV9S
+CREDIT SUISSE
+CUST
+A/C 3139889691
+ZURICH
+/ER/8253
+CLIENT
+/ER/6624
 ssi_end

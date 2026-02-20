@@ -1,17 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000139
-creation_date: 2026-02-18
+transaction_id: TX000140
+creation_date: 2024-05-28
 currency: EUR
-settlement_amount: 13515210.59
-buy_sell: SELL
-isin: SE962228736V1
-settlement_date: 2026-02-20
+settlement_amount: 13301832.85
+buy_sell: BUY
+isin: US398429299X2
+settlement_date: 2024-06-04
 ssi_begin
-UBS
-CUST
-A/C 4096129797
-OSLO
-/ER/4728
-CLIENT
-/ER/6954
+Stream A/c 4631951941 Our Beneficiary Swift Code LHIIRI0DTKE
+BENEFICIARY: ZENITH LLC
+PSET ABCD11
+REFERENCE E681CO2J8I
 ssi_end

@@ -1,15 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000022
-creation_date: 2023-01-11
-currency: EUR
-settlement_amount: 17694632.14
-buy_sell: BUY
-isin: IT476914651Y6
-settlement_date: 2023-01-16
+transaction_id: TX000023
+creation_date: 2024-02-22
+currency: USD
+settlement_amount: 11225632.23
+buy_sell: SELL
+isin: NO627123228Q4
+settlement_date: 2024-02-28
 ssi_begin
-PSET EFGH55
-PARTY: DELTA SECURITIES
-SWIFT HDKIOOKPA6D
-ACC 2776069314
-INSTR UAH54RT2V5
+Stream A/c 6833629220 Our Beneficiary Swift Code KNJQDVP15G1
+BENEFICIARY: GAMMA INVESTMENTS
+PSET UVWX99
+REFERENCE UQDDK6IW7Q
 ssi_end

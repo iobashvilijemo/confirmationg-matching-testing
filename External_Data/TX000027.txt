@@ -1,14 +1,15 @@
 WSS_TRANSACTION
-transaction_id: TX000021
-creation_date: 2026-02-09
-currency: USD
-settlement_amount: 7526691.27
+transaction_id: TX000022
+creation_date: 2023-01-11
+currency: EUR
+settlement_amount: 17694632.14
 buy_sell: BUY
-isin: JP300991219I9
-settlement_date: 2026-02-10
+isin: IT476914651Y6
+settlement_date: 2023-01-16
 ssi_begin
-Stream A/c 245099092 Our Beneficiary Swift Code JTFIGGQQRAV
-BENEFICIARY: ZENITH LLC
 PSET EFGH55
-REFERENCE WMRIVWT0H2
+PARTY: DELTA SECURITIES
+SWIFT HDKIOOKPA6D
+ACC 2776069314
+INSTR UAH54RT2V5
 ssi_end

@@ -1,15 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000011
-creation_date: 2025-03-30
+transaction_id: TX000012
+creation_date: 2023-10-13
 currency: USD
-settlement_amount: 41735534.73
-buy_sell: SELL
-isin: JP82650545798
-settlement_date: 2025-04-02
+settlement_amount: 13885656.75
+buy_sell: BUY
+isin: FR72743275875
+settlement_date: 2023-10-14
 ssi_begin
-PSET XXXX22
-PARTY: DELTA SECURITIES
-SWIFT QFDBDMJCQE7
-ACC 8676141738
-INSTR 24YZXZFNAD
+Stream A/c 5734093527 Our Beneficiary Swift Code FWUOVN67IKV
+BENEFICIARY: GAMMA INVESTMENTS
+PSET IJKL66
+REFERENCE OTCZAUXVJT
 ssi_end

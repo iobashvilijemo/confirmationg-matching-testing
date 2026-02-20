@@ -1,17 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000117
-creation_date: 2023-12-29
+transaction_id: TX000118
+creation_date: 2023-04-05
 currency: USD
-settlement_amount: 36946067.44
-buy_sell: BUY
-isin: CH47628918717
-settlement_date: 2024-01-02
+settlement_amount: 20391433.45
+buy_sell: SELL
+isin: NO387183792J0
+settlement_date: 2023-04-11
 ssi_begin
-BANK OF NEW YORK
+GOLDMAN SACHS
 CUST
-A/C 6033118055
-FRANKFURT
-/ER/3255
+A/C 9613090157
+MILAN
+/ER/6566
 CLIENT
-/ER/7428
+/ER/8393
 ssi_end

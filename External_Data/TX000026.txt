@@ -1,14 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000020
-creation_date: 2025-04-13
-currency: EUR
-settlement_amount: 25700157.25
+transaction_id: TX000021
+creation_date: 2026-02-09
+currency: USD
+settlement_amount: 7526691.27
 buy_sell: BUY
-isin: CH20584825450
-settlement_date: 2025-04-15
+isin: JP300991219I9
+settlement_date: 2026-02-10
 ssi_begin
-Stream A/c 6025352500 Our Beneficiary Swift Code EXWNFF7M0WV
-BENEFICIARY: OMEGA FUNDS
-PSET FFFF33
-REFERENCE DUER22X2RZ
+Stream A/c 245099092 Our Beneficiary Swift Code JTFIGGQQRAV
+BENEFICIARY: ZENITH LLC
+PSET EFGH55
+REFERENCE WMRIVWT0H2
 ssi_end

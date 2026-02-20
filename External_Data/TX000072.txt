@@ -1,17 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000066
-creation_date: 2025-07-07
-currency: EUR
-settlement_amount: 7017311.82
+transaction_id: TX000067
+creation_date: 2023-08-18
+currency: USD
+settlement_amount: 39935379.92
 buy_sell: BUY
-isin: SE42072828397
-settlement_date: 2025-07-10
+isin: JP764580927S7
+settlement_date: 2023-08-22
 ssi_begin
-JPMORGAN
+UBS
 CUST
-A/C 8576587943
-BRUSSELS
-/ER/5226
+A/C 8957161808
+ZURICH
+/ER/6972
 CLIENT
-/ER/4329
+/ER/3064
 ssi_end

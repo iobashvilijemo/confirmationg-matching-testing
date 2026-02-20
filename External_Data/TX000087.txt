@@ -1,14 +1,15 @@
 WSS_TRANSACTION
-transaction_id: TX000081
-creation_date: 2023-02-16
-currency: USD
-settlement_amount: 18093511.83
-buy_sell: BUY
-isin: DE970217117G0
-settlement_date: 2023-02-16
+transaction_id: TX000082
+creation_date: 2026-01-03
+currency: EUR
+settlement_amount: 16583229.71
+buy_sell: SELL
+isin: CA474645010T3
+settlement_date: 2026-01-05
 ssi_begin
-Our Settlement Instructions CREDIT SUISSE, A/C 7599349354
-BENEFICIARY: ORION PARTNERS
-SWIFT: PTXSWGQSGTQ
-REF: RF49963ISB
+PSET ZZZZ00
+PARTY: BETA CAPITAL
+SWIFT GAJPPVCX38Y
+ACC 3917934357
+INSTR DA1EU8JVNK
 ssi_end

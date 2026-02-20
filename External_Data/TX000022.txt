@@ -1,16 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000016
-creation_date: 2025-07-31
+transaction_id: TX000017
+creation_date: 2024-04-20
 currency: USD
-settlement_amount: 10447691.49
+settlement_amount: 29867361.44
 buy_sell: BUY
-isin: ES800384441Y4
-settlement_date: 2025-08-07
+isin: IT777706454E5
+settlement_date: 2024-04-20
 ssi_begin
-HSBC
-NYC
-IBAN ES43ZEPT33497439723430
-BENEFICIARY ALPHA ASSET MGMT
-SWIFT HJALKNEVWT3
-REF CNN7436KTK
+Stream A/c 7961149389 Our Beneficiary Swift Code CHCYFFLO7Z6
+BENEFICIARY: DELTA SECURITIES
+PSET UVWX99
+REFERENCE HOVBFTSO0P
 ssi_end

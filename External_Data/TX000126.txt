@@ -1,16 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000120
-creation_date: 2025-04-08
+transaction_id: TX000121
+creation_date: 2026-02-05
 currency: USD
-settlement_amount: 40139471.61
+settlement_amount: 40880903.38
 buy_sell: BUY
-isin: US923050761R9
-settlement_date: 2025-04-15
+isin: NO03959085720
+settlement_date: 2026-02-10
 ssi_begin
-BNP PARIBAS
-SYDNEY
-IBAN US28QODW01599979130769
-BENEFICIARY SIGMA TRADING
-SWIFT VRVNJRP6EZG
-REF 9Q6HAZ2Y23
+Our Settlement Instructions GOLDMAN SACHS, A/C 8101318871
+BENEFICIARY: DELTA SECURITIES
+SWIFT: MTDQRO1F7B1
+REF: YX44YAH81P
 ssi_end

@@ -1,15 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000147
-creation_date: 2023-02-13
+transaction_id: TX000148
+creation_date: 2023-12-19
 currency: USD
-settlement_amount: 29107139.49
-buy_sell: SELL
-isin: AU989736113B8
-settlement_date: 2023-02-17
+settlement_amount: 1583256.41
+buy_sell: BUY
+isin: CA38128177621
+settlement_date: 2023-12-24
 ssi_begin
-PSET ZZZZ00
-PARTY: GAMMA INVESTMENTS
-SWIFT NPQLBNB0Y57
-ACC 1097024096
-INSTR 6EIDDFQ4LD
+Stream A/c 9204989974 Our Beneficiary Swift Code KUTMFGN9ZIR
+BENEFICIARY: DELTA SECURITIES
+PSET UVWX99
+REFERENCE TQTZ4TFFTG
 ssi_end

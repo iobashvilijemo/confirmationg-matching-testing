@@ -1,16 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000106
-creation_date: 2025-12-05
+transaction_id: TX000107
+creation_date: 2024-08-30
 currency: USD
-settlement_amount: 24312246.77
-buy_sell: SELL
-isin: BE76534585165
-settlement_date: 2025-12-11
+settlement_amount: 13154448.28
+buy_sell: BUY
+isin: AU84418209893
+settlement_date: 2024-09-03
 ssi_begin
-CITI
-FRANKFURT
-IBAN BE02UVJG89561733303478
-BENEFICIARY SIGMA TRADING
-SWIFT ZTJNWX03KYD
-REF XBN4A5HQ5M
+Stream A/c 4194335270 Our Beneficiary Swift Code QRFMRXH36ZV
+BENEFICIARY: DELTA SECURITIES
+PSET IJKL66
+REFERENCE VYMAYJUBBD
 ssi_end

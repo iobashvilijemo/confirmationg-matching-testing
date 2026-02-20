@@ -1,14 +1,16 @@
 WSS_TRANSACTION
-transaction_id: TX000093
-creation_date: 2023-10-24
-currency: EUR
-settlement_amount: 43998796.88
-buy_sell: BUY
-isin: GB832455014B5
-settlement_date: 2023-10-26
+transaction_id: TX000094
+creation_date: 2025-04-16
+currency: USD
+settlement_amount: 25567937.74
+buy_sell: SELL
+isin: NO498043790V0
+settlement_date: 2025-04-17
 ssi_begin
-Our Settlement Instructions DEUTSCHE BANK, A/C 6655780293
-BENEFICIARY: DELTA SECURITIES
-SWIFT: HZNDZRC6J0U
-REF: WGERLCDQ5U
+BARCLAYS
+ZURICH
+IBAN NO34LDTI44306793270323
+BENEFICIARY DELTA SECURITIES
+SWIFT EMVSEWEQOLP
+REF 4VGKDZS66O
 ssi_end

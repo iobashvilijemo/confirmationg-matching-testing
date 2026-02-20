@@ -1,16 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000094
-creation_date: 2025-04-16
-currency: USD
-settlement_amount: 25567937.74
+transaction_id: TX000095
+creation_date: 2023-01-05
+currency: EUR
+settlement_amount: 27259841.99
 buy_sell: SELL
-isin: NO498043790V0
-settlement_date: 2025-04-17
+isin: GB292889461C6
+settlement_date: 2023-01-06
 ssi_begin
-BARCLAYS
-ZURICH
-IBAN NO34LDTI44306793270323
-BENEFICIARY DELTA SECURITIES
-SWIFT EMVSEWEQOLP
-REF 4VGKDZS66O
+Stream A/c 6615114432 Our Beneficiary Swift Code NRNQHMUIHNQ
+BENEFICIARY: BETA CAPITAL
+PSET PSET12
+REFERENCE 8E8OEREJI3
 ssi_end

@@ -1,14 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000018
-creation_date: 2024-01-28
+transaction_id: TX000019
+creation_date: 2026-01-13
 currency: USD
-settlement_amount: 7443758.16
+settlement_amount: 24663320.23
 buy_sell: BUY
-isin: GB10499355204
-settlement_date: 2024-02-04
+isin: NO786108228A9
+settlement_date: 2026-01-15
 ssi_begin
-Our Settlement Instructions CITI, A/C 5962184606
-BENEFICIARY: ZENITH LLC
-SWIFT: ABTTHCFBYYQ
-REF: 3A3JKQQD89
+Stream A/c 827416700 Our Beneficiary Swift Code XDXDYRTWXZR
+BENEFICIARY: BETA CAPITAL
+PSET IJKL66
+REFERENCE R1586XZ9ES
 ssi_end

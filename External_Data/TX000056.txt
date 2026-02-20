@@ -1,15 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000050
-creation_date: 2023-05-02
+transaction_id: TX000051
+creation_date: 2024-12-24
 currency: USD
-settlement_amount: 32450011.68
+settlement_amount: 37790995.36
 buy_sell: BUY
-isin: IE748992047C4
-settlement_date: 2023-05-02
+isin: IT357546181R0
+settlement_date: 2024-12-27
 ssi_begin
-PSET IJKL66
-PARTY: ACME HOLDINGS
-SWIFT GXYIBJ967F8
-ACC 217536304
-INSTR PDDUY3DTYL
+Our Settlement Instructions UBS, A/C 3028214552
+BENEFICIARY: ACME HOLDINGS
+SWIFT: IISZWLR7VCX
+REF: Z58Y7ALFOB
 ssi_end

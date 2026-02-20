@@ -1,14 +1,16 @@
 WSS_TRANSACTION
-transaction_id: TX000054
-creation_date: 2023-08-30
-currency: EUR
-settlement_amount: 40450672.80
-buy_sell: BUY
-isin: GB90258464681
-settlement_date: 2023-08-31
+transaction_id: TX000055
+creation_date: 2024-07-07
+currency: USD
+settlement_amount: 24358120.39
+buy_sell: SELL
+isin: JP559177844J0
+settlement_date: 2024-07-09
 ssi_begin
-Our Settlement Instructions JPMORGAN, A/C 9415087154
-BENEFICIARY: OMEGA FUNDS
-SWIFT: LLYXMS60Q3E
-REF: KD9HVV47B5
+BNP PARIBAS
+DUBLIN
+IBAN JP11BWPH07966548723641
+BENEFICIARY GAMMA INVESTMENTS
+SWIFT EFDROSRV11N
+REF DYI5FYZ4CT
 ssi_end

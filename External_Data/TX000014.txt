@@ -1,17 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000008
-creation_date: 2024-08-28
+transaction_id: TX000009
+creation_date: 2025-01-07
 currency: USD
-settlement_amount: 18367886.88
+settlement_amount: 39048132.64
 buy_sell: SELL
-isin: BE55034433592
-settlement_date: 2024-09-03
+isin: IT842934264Y8
+settlement_date: 2025-01-13
 ssi_begin
-CREDIT SUISSE
+BNP PARIBAS
 CUST
-A/C 7496213995
-FRANKFURT
-/ER/8378
+A/C 3674022182
+STOCKHOLM
+/ER/7583
 CLIENT
-/ER/6171
+/ER/5659
 ssi_end

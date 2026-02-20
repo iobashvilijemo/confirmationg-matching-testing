@@ -1,16 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000046
-creation_date: 2023-06-06
+transaction_id: TX000047
+creation_date: 2025-11-19
 currency: EUR
-settlement_amount: 49445780.49
-buy_sell: BUY
-isin: ES66479485756
-settlement_date: 2023-06-11
+settlement_amount: 26795939.47
+buy_sell: SELL
+isin: NO428477627L2
+settlement_date: 2025-11-26
 ssi_begin
-CREDIT SUISSE
-AMSTERDAM
-IBAN ES99TJGP72726605669494
-BENEFICIARY DELTA SECURITIES
-SWIFT SBZPZHLAGEP
-REF II7AGC4WBT
+CITI
+CUST
+A/C 7287732670
+OSLO
+/ER/3225
+CLIENT
+/ER/1163
 ssi_end

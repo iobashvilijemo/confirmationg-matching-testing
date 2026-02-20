@@ -1,14 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000031
-creation_date: 2023-04-09
+transaction_id: TX000032
+creation_date: 2023-01-04
 currency: EUR
-settlement_amount: 35433531.43
+settlement_amount: 43570287.99
 buy_sell: SELL
-isin: SE627520208E7
-settlement_date: 2023-04-13
+isin: FR711843082P8
+settlement_date: 2023-01-11
 ssi_begin
-Our Settlement Instructions UBS, A/C 5134785854
-BENEFICIARY: ALPHA ASSET MGMT
-SWIFT: OZANXWAHI1C
-REF: HBOSQH15QV
+Our Settlement Instructions JPMORGAN, A/C 5247705772
+BENEFICIARY: ORION PARTNERS
+SWIFT: WXIDPP7UJJR
+REF: 3XUP6MSKRZ
 ssi_end

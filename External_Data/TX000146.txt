@@ -1,14 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000140
-creation_date: 2024-05-28
-currency: EUR
-settlement_amount: 13301832.85
-buy_sell: BUY
-isin: US398429299X2
-settlement_date: 2024-06-04
+transaction_id: TX000141
+creation_date: 2025-03-28
+currency: USD
+settlement_amount: 27221773.24
+buy_sell: SELL
+isin: US212288510E4
+settlement_date: 2025-03-28
 ssi_begin
-Stream A/c 4631951941 Our Beneficiary Swift Code LHIIRI0DTKE
-BENEFICIARY: ZENITH LLC
-PSET ABCD11
-REFERENCE E681CO2J8I
+Stream A/c 2456187934 Our Beneficiary Swift Code FUBMLQ8OLTM
+BENEFICIARY: DELTA SECURITIES
+PSET IJKL66
+REFERENCE JV2WPPEZK7
 ssi_end

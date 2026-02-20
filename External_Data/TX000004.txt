@@ -1,86 +1,58 @@
-CONFIRMATION
- 
-From:
-        CREDIT AGRICOLE CORPORATE AND INVESTMENT BANK
- 
-        12, Place des Etats-Unis - C 75552 , 92557 , Montr5e Cex , FRA
+Gos International (GI)
+Plumtree Court | 25 Shoe Lane | Londo 4AU | England
+Tel: +44 (20) 72131231310
+BIC: GS1231GB2X
+GSI is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct
+Authority and the Prudential Regulation Authority
+and is a member of the London Stock Exchange.
+Trade Confirmation - Original
 To:
-        NATIONAL BANK 
-        Bonds Settlement Department
-Message reference:
-        CYC001231231B
-        
-Generated On:
-        24/10/25 11:02:18.067 o'clock AM GMT
- 
-We hereby confirm your securities SALE on the SECONDARY market.
----------------------------------------------------------------------------------------
-Main information
-Our reference:
-        48131230
-Buyer:
-        CORPORATE AND INVESTMENT BANK  
-Seller:
-        NATIONAL BANK 02131310265
-Trade date:
-        24/10/2025
-Settlement date:
-        28/10/2025
-Accrued interest amount:
-        344,305.56
-Clean price:
-        101.606
-Accrued interest rate:
-        3.4430556
-Dirty price:
-        105.0490556
-Cash countervalue:
-        11,604,905.56 USD
-Nominal:
-        11,000,000.00 USD
-Trade Negociated Price (Clean price):   101.606
-Execution time:
-        24/10/25 10:28:09.000 o'clock AM
-Accrued interest is calculated according to international rules
----------------------------------------------------------------------------------------
-Financial instrument attributes
+NATIONAL BANK
+Confirmation Ref:
+PCTGS1231231v2_0:0
+F.A.O:
+Dept:
+EMAIL:
+Trade Date
+Settlement Date
+Sep 30 2025
+Oct 02 2025
+Security Name
+REPUBLIC 2.75% 02/25/2029 EUR SER 6Y PVT 144A PVT REGS
 ISIN:
-        FR0014123133
-Currency:
-USD
-Issuer:
-        33 CONSIGNATIONS
-Issue date:
-        JANUARY 31, 2025
-Rate :
-4.625
-Maturity date:
-        JANUARY 31, 2028
-Spread:
----------------------------------------------------------------------------------------
-CORPORATE AND INVESTMENT BANK instructions
-ACCOUNT: 1111
-WITH: CEAM - CLYZX
-BENEFICIARY: XYZ CIB - BFFFFRPXXX
----------------------------------------------------------------------------------------
-NATIONAL BANK instructions
-SECURITY SETTLEMENT SYSTEM AGAINST PAYMENT: CEDEL - CEDELULLXXX
-ACCOUNT: 12323
-WITH CEAM - CLYZX
-BENEFICIARY: NATIONAL BANK - YZXE11XXX
----------------------------------------------------------------------------------------
-Broker:
-BLOOMBERG LP
-Informations:
- 
-You will be deemed to have accepted the above offer on the terms set out unless we hear from you to the contrary within 48 hours from
-confirmation date.
-This document has been produced automatically and requires no official signature.
- 
-Best Regards.
- 
-Contact Bonds Back-Office: CLIENT SETTLEMENT TEAM
-Email: Bondt@ca-cib.com
-Phone:
-Fax: 33(0)111231231
- 
+FR00123123
+Sedol:
+BMF131234
+Quantity
+Price (Decimal)
+Yield
+12,000,000
+backo@mail.com
+Accrued Interest
+EUR 198,000.00
+Number of Days
+Net Amount
+219
+EUR 12,312,960.00
+100.958
+2.45
+You have Bought on Principal terms
+We will Deliver Versus Payment at Place of Settlement: MGTBRBRBRBE
+Principal
+EUR 12,114,960.00
+Account: 0132171
+GOLDMAN SACHS
+/ER/1111
+CLIENT
+/ER/2222
+Please email fi-allo@s.com or alternatively contact your Primary Client Services Specialist if you have any queries
+regarding this confirmation.
+From:
+To:
+Execution Time and Venue Available on Request.
+This transaction is subject to London Stock Exchange rules if it was, in whole or in part, 'on exchange' as defined in such rules. This security,
+if purchased by a customer or for his account, may be pledged until payment is made, either separately or together with other customers'
+securities, either for the sum due to Goldman Sachs International or, if pledged with other securities, for a greater amount, all without further
+notice to the customer. Should you note any discrepancies in the trade details shown, please contact us immediately so that we can resolve
+any disputes. You will subsequently receive a hard copy form which will serve as the official trade confirmation and will take precedence in the
+event of any discrepancy with the terms shown here.

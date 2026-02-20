@@ -1,14 +1,15 @@
 WSS_TRANSACTION
-transaction_id: TX000049
-creation_date: 2023-07-11
-currency: EUR
-settlement_amount: 28696723.75
-buy_sell: SELL
-isin: IE08106866670
-settlement_date: 2023-07-15
+transaction_id: TX000050
+creation_date: 2023-05-02
+currency: USD
+settlement_amount: 32450011.68
+buy_sell: BUY
+isin: IE748992047C4
+settlement_date: 2023-05-02
 ssi_begin
-Our Settlement Instructions JPMORGAN, A/C 5749575963
-BENEFICIARY: ORION PARTNERS
-SWIFT: MEPDZE2G2DC
-REF: DL9WZDR7TJ
+PSET IJKL66
+PARTY: ACME HOLDINGS
+SWIFT GXYIBJ967F8
+ACC 217536304
+INSTR PDDUY3DTYL
 ssi_end

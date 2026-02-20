@@ -1,15 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000029
-creation_date: 2023-08-15
+transaction_id: TX000030
+creation_date: 2023-08-02
 currency: EUR
-settlement_amount: 6074759.73
+settlement_amount: 23559459.29
 buy_sell: BUY
-isin: BE829682745W3
-settlement_date: 2023-08-19
+isin: SE452708731A5
+settlement_date: 2023-08-03
 ssi_begin
-PSET UVWX99
-PARTY: GAMMA INVESTMENTS
-SWIFT LPIQDZR9VML
-ACC 1920327545
-INSTR 86J8DM4EAI
+JPMORGAN
+CUST
+A/C 8550385580
+STOCKHOLM
+/ER/7873
+CLIENT
+/ER/3605
 ssi_end

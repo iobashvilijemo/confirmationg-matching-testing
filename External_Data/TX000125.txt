@@ -1,17 +1,16 @@
 WSS_TRANSACTION
-transaction_id: TX000119
-creation_date: 2023-03-01
+transaction_id: TX000120
+creation_date: 2025-04-08
 currency: USD
-settlement_amount: 33997808.05
+settlement_amount: 40139471.61
 buy_sell: BUY
-isin: ES98402973087
-settlement_date: 2023-03-07
+isin: US923050761R9
+settlement_date: 2025-04-15
 ssi_begin
-BANK OF NEW YORK
-CUST
-A/C 4137410324
-STOCKHOLM
-/ER/7759
-CLIENT
-/ER/4650
+BNP PARIBAS
+SYDNEY
+IBAN US28QODW01599979130769
+BENEFICIARY SIGMA TRADING
+SWIFT VRVNJRP6EZG
+REF 9Q6HAZ2Y23
 ssi_end

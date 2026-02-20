@@ -1,15 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000138
-creation_date: 2024-04-02
-currency: USD
-settlement_amount: 31981262.35
-buy_sell: BUY
-isin: CH744458447L7
-settlement_date: 2024-04-05
+transaction_id: TX000139
+creation_date: 2026-02-18
+currency: EUR
+settlement_amount: 13515210.59
+buy_sell: SELL
+isin: SE962228736V1
+settlement_date: 2026-02-20
 ssi_begin
-PSET UVWX99
-PARTY: ZENITH LLC
-SWIFT GBBMNCIQX2Z
-ACC 7442091220
-INSTR P84SB63G0U
+UBS
+CUST
+A/C 4096129797
+OSLO
+/ER/4728
+CLIENT
+/ER/6954
 ssi_end

@@ -1,14 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000007
-creation_date: 2023-05-10
+transaction_id: TX000008
+creation_date: 2024-08-28
 currency: USD
-settlement_amount: 36117658.35
-buy_sell: BUY
-isin: NL394443907M7
-settlement_date: 2023-05-14
+settlement_amount: 18367886.88
+buy_sell: SELL
+isin: BE55034433592
+settlement_date: 2024-09-03
 ssi_begin
-Stream A/c 810623326 Our Beneficiary Swift Code YOLVHSETULY
-BENEFICIARY: ZENITH LLC
-PSET EFGH55
-REFERENCE Z7168FYANX
+CREDIT SUISSE
+CUST
+A/C 7496213995
+FRANKFURT
+/ER/8378
+CLIENT
+/ER/6171
 ssi_end

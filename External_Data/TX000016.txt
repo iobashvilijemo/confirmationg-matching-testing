@@ -1,14 +1,15 @@
 WSS_TRANSACTION
-transaction_id: TX000010
-creation_date: 2023-12-07
-currency: EUR
-settlement_amount: 38705463.15
+transaction_id: TX000011
+creation_date: 2025-03-30
+currency: USD
+settlement_amount: 41735534.73
 buy_sell: SELL
-isin: DE188306524L1
-settlement_date: 2023-12-11
+isin: JP82650545798
+settlement_date: 2025-04-02
 ssi_begin
-Stream A/c 3205412331 Our Beneficiary Swift Code WJPNQIR5DJW
-BENEFICIARY: ACME HOLDINGS
-PSET FFFF33
-REFERENCE D79N2IAG80
+PSET XXXX22
+PARTY: DELTA SECURITIES
+SWIFT QFDBDMJCQE7
+ACC 8676141738
+INSTR 24YZXZFNAD
 ssi_end

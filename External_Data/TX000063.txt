@@ -1,15 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000057
-creation_date: 2024-07-17
-currency: EUR
-settlement_amount: 41153896.70
+transaction_id: TX000058
+creation_date: 2025-09-17
+currency: USD
+settlement_amount: 7329452.63
 buy_sell: BUY
-isin: IE625537434S0
-settlement_date: 2024-07-21
+isin: JP805434769G2
+settlement_date: 2025-09-24
 ssi_begin
-PSET XXXX22
-PARTY: NOVA BANK
-SWIFT WKAXCOA1IA4
-ACC 383729066
-INSTR UV9Z3NFR74
+Our Settlement Instructions DEUTSCHE BANK, A/C 354524783
+BENEFICIARY: BETA CAPITAL
+SWIFT: QUPGSZ1MEWR
+REF: 88T1KK2X7Z
 ssi_end

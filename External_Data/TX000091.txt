@@ -1,15 +1,15 @@
 WSS_TRANSACTION
-transaction_id: TX000085
-creation_date: 2024-01-04
-currency: USD
-settlement_amount: 41591655.02
+transaction_id: TX000086
+creation_date: 2023-11-06
+currency: EUR
+settlement_amount: 20315465.83
 buy_sell: BUY
-isin: US197024690J5
-settlement_date: 2024-01-08
+isin: IT988687641A0
+settlement_date: 2023-11-13
 ssi_begin
-PSET FFFF33
-PARTY: SIGMA TRADING
-SWIFT CFJMHVXCDA5
-ACC 4203050432
-INSTR 1RYK0LU5T8
+PSET PSET12
+PARTY: NOVA BANK
+SWIFT VGTMZJ6YASN
+ACC 8355554419
+INSTR MPTEZH39F3
 ssi_end

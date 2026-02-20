@@ -1,17 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000002
-creation_date: 2024-05-21
+transaction_id: TX000003
+creation_date: 2025-10-19
 currency: EUR
-settlement_amount: 46144778.25
-buy_sell: BUY
-isin: GB496002348Q9
-settlement_date: 2024-05-21
+settlement_amount: 30155154.64
+buy_sell: SELL
+isin: CH57268419931
+settlement_date: 2025-10-19
 ssi_begin
-CREDIT SUISSE
+BARCLAYS
 CUST
-A/C 5077615688
-FRANKFURT
-/ER/1135
+A/C 7495390017
+SYDNEY
+/ER/1412
 CLIENT
-/ER/9534
+/ER/8166
 ssi_end

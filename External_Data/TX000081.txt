@@ -1,17 +1,16 @@
 WSS_TRANSACTION
-transaction_id: TX000075
-creation_date: 2024-04-19
+transaction_id: TX000076
+creation_date: 2023-04-27
 currency: USD
-settlement_amount: 35792280.61
+settlement_amount: 15096026.35
 buy_sell: SELL
-isin: CA774545002J2
-settlement_date: 2024-04-20
+isin: IE258584120Y1
+settlement_date: 2023-05-04
 ssi_begin
-GOLDMAN SACHS
-CUST
-A/C 871129484
-TOKYO
-/ER/7764
-CLIENT
-/ER/6088
+BNP PARIBAS
+OSLO
+IBAN IE26FGNI34541639496591
+BENEFICIARY BETA CAPITAL
+SWIFT PUTQPT451RL
+REF LLIX64PFBD
 ssi_end

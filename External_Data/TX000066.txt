@@ -1,14 +1,16 @@
 WSS_TRANSACTION
-transaction_id: TX000060
-creation_date: 2023-05-22
-currency: EUR
-settlement_amount: 9105614.10
-buy_sell: SELL
-isin: NL738985091R3
-settlement_date: 2023-05-28
+transaction_id: TX000061
+creation_date: 2024-09-24
+currency: USD
+settlement_amount: 40665132.62
+buy_sell: BUY
+isin: NL95291456042
+settlement_date: 2024-09-27
 ssi_begin
-Stream A/c 4019541601 Our Beneficiary Swift Code QWDVOTIZIPP
-BENEFICIARY: NOVA BANK
-PSET PSET12
-REFERENCE Z5X5IVXKEB
+CREDIT SUISSE
+ZURICH
+IBAN NL49KYVB07846543497927
+BENEFICIARY ORION PARTNERS
+SWIFT ERKQZWL3DZ3
+REF WIV622T6GS
 ssi_end

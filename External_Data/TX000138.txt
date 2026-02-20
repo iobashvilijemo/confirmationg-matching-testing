@@ -1,15 +1,17 @@
 WSS_TRANSACTION
-transaction_id: TX000132
-creation_date: 2025-05-19
+transaction_id: TX000133
+creation_date: 2025-09-04
 currency: EUR
-settlement_amount: 1799135.57
+settlement_amount: 35112967.81
 buy_sell: SELL
-isin: IE587921144T9
-settlement_date: 2025-05-24
+isin: US673245867B9
+settlement_date: 2025-09-11
 ssi_begin
-PSET XXXX22
-PARTY: OMEGA FUNDS
-SWIFT BCZFXG9ZA26
-ACC 4496375877
-INSTR AS64J6TWBX
+GOLDMAN SACHS
+CUST
+A/C 4974268106
+FRANKFURT
+/ER/8168
+CLIENT
+/ER/3080
 ssi_end

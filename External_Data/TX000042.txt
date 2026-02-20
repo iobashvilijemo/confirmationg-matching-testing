@@ -1,17 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000036
-creation_date: 2024-02-12
+transaction_id: TX000037
+creation_date: 2023-11-29
 currency: EUR
-settlement_amount: 19724198.81
+settlement_amount: 12054480.86
 buy_sell: SELL
-isin: JP989325321I6
-settlement_date: 2024-02-13
+isin: CH475619650V5
+settlement_date: 2023-11-29
 ssi_begin
-JPMORGAN
-CUST
-A/C 621389523
-BRUSSELS
-/ER/5544
-CLIENT
-/ER/6460
+Our Settlement Instructions GOLDMAN SACHS, A/C 44682046
+BENEFICIARY: NOVA BANK
+SWIFT: JXXCIUAR4JY
+REF: TROP6NB48S
 ssi_end

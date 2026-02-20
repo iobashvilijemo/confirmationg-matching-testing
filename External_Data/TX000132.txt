@@ -1,15 +1,14 @@
 WSS_TRANSACTION
-transaction_id: TX000126
-creation_date: 2025-10-19
-currency: EUR
-settlement_amount: 35833356.87
-buy_sell: BUY
-isin: JP837552810V4
-settlement_date: 2025-10-19
+transaction_id: TX000127
+creation_date: 2025-02-26
+currency: USD
+settlement_amount: 14567305.36
+buy_sell: SELL
+isin: NO72523020103
+settlement_date: 2025-03-01
 ssi_begin
-PSET EFGH55
-PARTY: ALPHA ASSET MGMT
-SWIFT VHDKCSPJ1EL
-ACC 1508095822
-INSTR H505R16VY6
+Our Settlement Instructions HSBC, A/C 8479147021
+BENEFICIARY: NOVA BANK
+SWIFT: MCUCSD4YZXM
+REF: H3VGZDE7U5
 ssi_end
