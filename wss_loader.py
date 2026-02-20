@@ -26,7 +26,7 @@ def _normalize_date_columns(df: pd.DataFrame) -> pd.DataFrame:
             continue
         parsed = pd.to_datetime(df[col], errors="coerce")
         df[col] = parsed.dt.strftime("%Y-%m-%d")
-        df[col] = df[col].where(parsed.notna(), None)
+        df[col] = df[col].where(parsed.notna(), None) # type: ignore
     return df
 
 
