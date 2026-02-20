@@ -2,6 +2,8 @@
 
 Financial trade confirmation processing pipeline with SQLite-backed storage and field-level LLM normalization.
 
+![Application Architecture Diagram](/utility/confiramtion matching.png)
+
 ## What Changed
 
 - Moved to a DB-first parsing flow for confirmation fields.
