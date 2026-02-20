@@ -1,91 +1,84 @@
 # Confirmation Matching Testing
 
-Financial trade confirmation processing pipeline with SQLite-backed storage and field-level LLM normalization.
+Financial trade confirmation extraction pipeline with:
+- SQLite for source and normalized data storage
+- text-file source documents (`External_Data/TX######.txt`)
+- field-level LLM extraction via Ollama
+
+The project is designed for deterministic, incremental parsing. Each confirmation field is processed independently, and only missing `*_LLM` values are generated.
 
 ![Application-Architecture-Diagram](utility/confiramtion-matching.png)
 
-## What Changed
+## Project Goal
 
-- Moved to a DB-first parsing flow for confirmation fields.
-- Added `confirmation_data` table with raw columns and matching `*_LLM` columns.
-- Refactored parser to process only new/unprocessed values.
-- Split LLM metadata into a dedicated module:
-  - shared general system prompt
-  - field-specific instructions
-  - per-field few-shot examples
-  - per-field JSON schema
+This repository normalizes key fields from trade confirmation content into a database-friendly format so downstream matching and analytics can run on structured values.
 
-## Current Architecture
+Target fields:
+- `currency`
+- `settlement_amount`
+- `buy_sell`
+- `isin`
+- `settlement_date`
+- `SSI`
 
-1. Raw data is inserted into `DB/confirmation.db` table `confirmation_data`.
-2. `confirmation_parser.py` scans rows in `confirmation_data`.
-3. For each field (`currency`, `settlement_amount`, `buy_sell`, `isin`, `settlement_date`, `SSI`):
-   - if raw value exists
-   - and corresponding `*_LLM` value is empty
-   - parser makes one LLM call for that field only.
-4. Parsed output is written back to the matching `*_LLM` column.
+For each source field, there is a paired normalized output column (for example, `currency_LLM`).
 
-## Database
+## High-Level Flow
 
-Script: `create_confirmation_table.py`
+1. Create `confirmation_data` table in `DB/confirmation.db`.
+2. Load structured raw values from `utility/WSS_Data.xlsx` into `confirmation_data`.
+3. For each DB row `id`, read document text from `External_Data/TX{id:06d}.txt`.
+4. For each target field, call the LLM only if `*_LLM` is currently empty.
+5. Write parsed values back into matching `*_LLM` columns.
 
-Creates table `confirmation_data` in `DB/confirmation.db` with:
+## Repository Components
 
-- `currency`, `currency_LLM`
-- `settlement_amount`, `settlement_amount_LLM`
-- `buy_sell`, `buy_sell_LLM`
-- `isin`, `isin_LLM`
-- `settlement_date`, `settlement_date_LLM`
-- `SSI`, `SSI_LLM`
-- `creation_date`, `creation_date_LLM`
+- `create_confirmation_table.py`
+  - Creates `confirmation_data` if it does not exist.
+- `wss_loader.py`
+  - Loads raw Excel data into `confirmation_data`.
+  - Uses only expected columns and ignores extra columns.
+  - Normalizes date columns to `YYYY-MM-DD`.
+  - Starts import from Excel row 7 (header counted as row 1).
+- `confirmation_parser.py`
+  - Reads rows from `confirmation_data`.
+  - Loads confirmation text from `External_Data/TX######.txt`.
+  - Applies field-level extraction and writes results to `*_LLM`.
+  - Skips fields that already have `*_LLM` values.
+- `llm_metadata.py`
+  - Central metadata for each field:
+    - source column and destination `*_LLM` column
+    - few-shot examples
+    - field-specific prompt rules
+    - JSON schema for structured output
 
-`creation_date` defaults to `CURRENT_TIMESTAMP`.
+## Data Contract
 
-## LLM Metadata Design
+### Database
 
-File: `llm_metadata.py`
+Database file: `DB/confirmation.db`  
+Table: `confirmation_data`
 
-- `GENERAL_SYSTEM_PROMPT`: shared rules used by all fields.
-- `FieldLLMMetadata`: metadata model for one source field.
-- `FIELD_LLM_METADATA`: mapping from source field to:
-  - source column
-  - destination LLM column
-  - output key
-  - few-shot examples
-  - composed system prompt (general + field rules)
-  - format schema
+Core columns:
+- `id INTEGER PRIMARY KEY AUTOINCREMENT`
+- source fields: `currency`, `settlement_amount`, `buy_sell`, `isin`, `settlement_date`, `SSI`, `creation_date`
+- normalized fields: `currency_LLM`, `settlement_amount_LLM`, `buy_sell_LLM`, `isin_LLM`, `settlement_date_LLM`, `SSI_LLM`, `creation_date_LLM`
 
-This keeps prompt/schema logic out of parser code.
+### External Text Files
 
-## Parser Behavior
+Parser expects:
+- Directory: `External_Data`
+- Filename pattern: `TX######.txt` (zero-padded to 6 digits)
+- Mapping rule: DB `id = N` maps to `External_Data/TX{N:06d}.txt`
 
-File: `confirmation_parser.py`
-
-- Reads from `confirmation_data`.
-- Uses `FIELD_LLM_METADATA` for prompt/schema routing.
-- Processes one field at a time per row.
-- Skips already-processed `*_LLM` values.
-- Updates only pending fields.
-
-Run:
-
-```bash
-python confirmation_parser.py
-```
-
-## Other Scripts
-
-- `pdf_to_text.py`: extract text from PDFs into `External_Data/dummy/*.txt`
-- `json_to_sqlite.py`: legacy JSON ingestion into `Counterparty_Data` table
-- `wss_loader.py`: load `WSS_Data.xlsx` into `wss_data` table
+If a mapped text file is missing or empty, that DB row is skipped.
 
 ## Setup
 
-### Requirements
-
+Requirements:
 - Python 3.12+
 - Ollama
-- Model: `llama3.2:latest`
+- Model `llama3.2:latest`
 
 Install dependencies:
 
@@ -100,19 +93,41 @@ ollama serve
 ollama pull llama3.2
 ```
 
-## Recommended Run Order
+## Run Sequence
 
-1. Create table:
+1. Initialize DB table:
 
 ```bash
 python create_confirmation_table.py
 ```
 
-2. Insert raw values into `confirmation_data` (manual or your loader).
+2. Load WSS Excel data:
+
+```bash
+python wss_loader.py
+```
+
 3. Run parser:
 
 ```bash
 python confirmation_parser.py
 ```
 
-4. Query results from `*_LLM` columns in `DB/confirmation.db`.
+4. Validate results in `DB/confirmation.db` (`confirmation_data` table).
+
+## Incremental Processing Behavior
+
+- Parser is idempotent for already processed fields.
+- Existing `*_LLM` values are not overwritten.
+- Re-running parser only fills remaining null/empty `*_LLM` values.
+
+## Operational Notes
+
+- Keep DB IDs aligned with `External_Data/TX######.txt` filenames.
+- If IDs or filenames are shifted, update one side so `id -> file` mapping stays 1:1.
+- `wss_loader.py` appends rows; use care when re-loading to avoid unintended duplicates.
+
+## Legacy/Utility Scripts
+
+- `pdf_to_text.py`: extracts PDF content into text files.
+- `json_to_sqlite.py`: legacy JSON ingestion path.
