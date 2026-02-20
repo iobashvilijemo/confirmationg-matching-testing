@@ -2,7 +2,7 @@
 
 Financial trade confirmation processing pipeline with SQLite-backed storage and field-level LLM normalization.
 
-![Application Architecture Diagram](/utility/confiramtion matching.png)
+![Application Architecture Diagram](utility/confiramtion matching.png)
 
 ## What Changed
 
